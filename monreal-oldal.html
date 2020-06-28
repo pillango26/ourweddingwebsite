@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Ceremony</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mondreal-oldal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <img src="images/letöltés.png" alt="">
+
+
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <a href="weddingwebsite.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a> 
+  <a href="Ourstory.html" onclick="w3_close()" class="w3-bar-item w3-button">OUR STORY</a> 
+  <a href="monreal-oldal.html"onclick="w3_close()" class="w3-bar-item w3-button">CEREMONY</a>
+  <a href="dinner.html" onclick="w3_close()" class="w3-bar-item w3-button">DINNER</a>
+  <a href="travel.html" onclick="w3_close()" class="w3-bar-item w3-button">TRAVEL</a> 
+  <a href="gifts.html" onclick="w3_close()" class="w3-bar-item w3-button">GIFT</a>
+  <a href="contactus.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a> 
+    
+    
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+  <div class="images">
+    <div class="images">
+      <img src="images/f9285db9d55bdbd4e88130300e26934a.jpg" style="width:100%" onclick="onClick(this)" alt="1">
+
+    </div>
+   
+  
+
+
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+
+        
+       
+  <!-- WHATTOVISIT section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:600px">
+      <h1 class="w3-center"><b>MONREALE DI DUOMO</b></h4>
+     
+      <h2> Arrival: 15:30 
+          <br>
+           Start 15:45 </h2> 
+          <br>
+          Parking for cars are available
+          <br>
+          <p>The Cathedral of Monreale is located by 20-30 miunutes by Car from Palermo city center. (Italian: Duomo di Monreale) is a church in Monreale, Metropolitan City of Palermo, Sicily, southern Italy. One of the greatest existent examples of Norman architecture, it was begun in 1174 by William II of Sicily. In 1182 the church, dedicated to the Nativity of the Virgin Mary, was, by a bull of Pope Lucius III, elevated to the rank of a metropolitan cathedral. Since 2015 it is part of the Arab-Norman Palermo and the Cathedral Churches of Cefalù and Monreale UNESCO Heritage site.
+
+        The church is a national monument of Italy and one of the most important attractions of Sicily. Its size is 102 meters long and 40 meters wide.
+      Sicily is the real paradise in Earth. The beautiful island was esthabishled around... The old roman empire <blablabla class=""></blablabla>
+      </p>
+
+      <p> Doumi di Monreale blablablala 
+          
+        Arrank you for coming! We are so excited to see you all! Here are our few advices and tips and trick to know about the country!
+          baoignwoignegiuensgoesngesge esnbesinesobnesonbs dnbiuen9uegnwögewöge fwugnqw9ufghq9wqöw owenfgwegnweug geoengoiwenw </p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56606.81913820114!2d13.284414161394928!3d38.08345616764459!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319ee3fa6ee3193%3A0x33ee5901f0be482!2sCattedrale%20di%20Monreale!5e0!3m2!1shu!2sbe!4v1591740589798!5m2!1shu!2sbe" width="1024" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+        </div>
+  </div>
+
+
+    
+  
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
